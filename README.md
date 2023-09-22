@@ -1,11 +1,47 @@
 # README
 
-## Changements apportés à l'application par Téo
+## Description(FR)
 
-- Réorganisation des fichiers : désormais, les scripts python sont à la racine du projets et tous les fichiers nécessaires au bon fonctionnement de l'application sont dans le dossier `assets`. Les chemins vers les fichiers dans les scripts ont été modifié en conséquence.
-- Vérification du système d'exploitation pendant l'exécution du programme car l'utilisation de fichier .ico n'est pas supporté sur Linux et fait planter le programme (voir `appli.py` ligne 90)
-- Vérification de la manière dont le programme est exécuté (avec python ou dans un .exe) pour résoudre les problèmes de lecture des fichiers dans le dossier `assets` (voir variable `folder` dans `fonctions_principales.py` qui est ensuite importée et utilisée dans les deux autres scripts à chaque fois qu'on a spécifie le chemin d'un fichier dans `assets`).
-- Rédaction de cette documentation et génération d'un fichier `requirements.txt` pour fixer les versions des dépendances du projet (à regénérer à chaque fois qu'un nouveau module est installé dans l'environnement virtuel avec la commande `pip freeze > requirements.txt` exécutée elle aussi dans l'environnement virtuel).
+Bienvenue dans l'Application de Gestion de Chambre de Croissance pour la Culture de Champignons ! Cette application a été conçue pour simplifier et optimiser le processus de gestion des sacs de champignons dans la chambre de croissance, en éliminant le chaos et les pertes de temps liés à la recherche d'emplacements spécifiques.
+
+## Fonctionnalités
+
+- **Ensemencement Facilité** : Lorsqu'un lot est ensemencé, l'opérateur entre simplement le nombre de sacs, et l'application lui indique instantanément les emplacements appropriés dans la chambre de croissance.
+
+- **Gestion Optimisée** : Après deux semaines, l'application propose de manière automatisée les sacs à déplacer en salle de fructification, en précisant également leur emplacement.
+
+- **Gain de Temps** : Cette application a été développée en début de stage et a été améliorée grâce aux retours de l'employeur. Elle permet de gagner un temps précieux en évitant les recherches fastidieuses et les erreurs humaines.
+
+## Installation
+
+Pour installer et exécuter l'application, suivez ces étapes :
+
+1. Clonez le référentiel sur votre machine locale.
+2. Assurez-vous d'avoir Python installé.
+3. Accédez au répertoire de l'application.
+4. Exécutez la commande suivante pour démarrer l'application :
+
+## Description (EN)
+
+Welcome to the Mushroom Growth Chamber Management Application! This application has been designed to simplify and optimize the process of managing mushroom bags in the growth chamber, eliminating chaos and time losses associated with searching for specific locations.
+
+## Features
+
+- **Easy Seeding**: When a batch is seeded, the operator simply enters the number of bags, and the application instantly provides the appropriate locations in the growth chamber.
+
+- **Optimized Management**: After two weeks, the application automatically suggests the bags to be moved to the fruiting room, specifying their location.
+
+- **Time Savings**: This application was developed at the beginning of the internship and has been improved based on feedback from the employer. It saves valuable time by avoiding tedious searches and human errors.
+
+## Installation
+
+To install and run the application, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Ensure you have Python installed.
+3. Navigate to the application directory.
+4. Run the following command to start the application:
+
 
 ## Tester et compiler sur Windows
 
