@@ -19,7 +19,8 @@ Pour installer et exécuter l'application, suivez ces étapes :
 1. Clonez le référentiel sur votre machine locale.
 2. Assurez-vous d'avoir Python installé.
 3. Accédez au répertoire de l'application.
-4. Exécutez la commande suivante pour démarrer l'application :
+4. Lancer l'application en exécutant le script appli.py : `python appli.py`
+
 
 ## Description (EN)
 
@@ -40,7 +41,7 @@ To install and run the application, follow these steps:
 1. Clone the repository to your local machine.
 2. Ensure you have Python installed.
 3. Navigate to the application directory.
-4. Run the following command to start the application:
+4. Launch the app with the following command `python appli.py`
 
 
 ## Tester et compiler sur Windows
