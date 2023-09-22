@@ -1,0 +1,3 @@
+Type_id Type_name
+J Pleurotes_jaunes
+P Pleurotes_du_panicaut
